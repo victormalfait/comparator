@@ -1,0 +1,14 @@
+{
+  "name": "comparator",
+  "version": "1.0.0",
+  "scripts": {
+    "front-install": "npm install --prefix comparator-front",
+    "back-install": "npm install --prefix comparator-backend",
+    "front": "npm start --prefix comparator-front",
+    "back": "npm start --prefix comparator-backend",
+    "dev": "concurrently \"npm run back\" \"npm run front\""
+  },
+  "dependencies": {
+    "concurrently": "^5.1.0"
+  }
+}

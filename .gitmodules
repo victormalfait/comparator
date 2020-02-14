@@ -1,0 +1,6 @@
+[submodule "comparator-front"]
+	path = comparator-front
+	url = https://github.com/victormalfait/comparator-front.git
+[submodule "comparator-backend"]
+	path = comparator-backend
+	url = https://github.com/victormalfait/comparator-backend.git
